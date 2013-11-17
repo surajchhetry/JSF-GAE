@@ -3,8 +3,12 @@ import java.util.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.faces.context.*;
+import java.io.Serializable;
 
-public class JudBean{
+public class JudBean implements Serializable
+{
+  private static final long serialVersionUID = 7526472295622776147L;
+  
   private String jud=null;
   private String capit=null;
   private String abrev=null;

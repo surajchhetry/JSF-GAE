@@ -3,8 +3,12 @@ import javax.faces.application.FacesMessage;
 import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.validator.ValidatorException;
+import java.io.Serializable;
 
-public class CmmdcBean{
+public class CmmdcBean implements Serializable 
+{	
+  private static final long serialVersionUID = 7526472295622776147L;
+
   private String sm;
   private String sn;
   private String sresult;

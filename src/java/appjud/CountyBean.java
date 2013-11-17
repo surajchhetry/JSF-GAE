@@ -5,8 +5,12 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.faces.context.*;
+import java.io.Serializable;
 
-public class CountyBean{
+public class CountyBean implements Serializable
+{
+  private static final long serialVersionUID = 7526472295622776147L;
+
   private ArrayList<SelectItem> judete=null;
   private HashMap<String,RefJudet> refJudete=new HashMap<String,RefJudet>();
   

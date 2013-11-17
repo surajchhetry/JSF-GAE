@@ -2,8 +2,12 @@ package cmmdc1;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.faces.context.*;
+import java.io.Serializable;
 
-public class CmmdcBean{
+public class CmmdcBean implements Serializable
+{
+  private static final long serialVersionUID = 7526472295622776147L;
+  
   private String sresult;
 
   public CmmdcBean(){}

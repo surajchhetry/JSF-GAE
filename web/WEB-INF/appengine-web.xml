@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- https://developers.google.com/appengine/docs/java/config/appconfig -->
+
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <!-- The application's ID -->
+  <application>weighty-droplet-402</application>
+  
+  <!-- The version identifier for the latest version of the app's code -->
+  <version>1</version>
+  
+  <!-- Change to false if your code is not threadsafe.
+       See https://developers.google.com/appengine/docs/java/config/appconfig#Using_Concurrent_Requests -->
+  <threadsafe>true</threadsafe>
+  
+  <sessions-enabled>true</sessions-enabled>
+</appengine-web-app>

@@ -1,6 +1,9 @@
 package appjud;
-public class RefJudet implements java.io.Serializable{
-  //static final long serialVersionUID=546404324306404973L;
+import java.io.Serializable;
+
+public class RefJudet implements Serializable
+{
+  private static final long serialVersionUID = 7526472295622776147L;
 
   private String jud;
   private String capit;

@@ -1,6 +1,6 @@
 <project basedir="." default="generate.war">
 
-  <property name="TOMCAT_HOME" value="d:/JavaApp/apache-tomcat-7.0.47"/> 
+  <property name="TOMCAT_HOME" value="/home/alexbutum/Software/Java/apache-tomcat-8.0.0-RC5/"/> 
   <property name="dist.name" value="myjsfFacelets" />
   <property name="dist.dir" value="dist" />
   <property name="build.dir" value="web/WEB-INF/classes"/>

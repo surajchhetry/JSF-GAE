@@ -1,4 +1,9 @@
-public class MenuItem{
+import java.io.Serializable;
+
+public class MenuItem implements Serializable
+{
+  private static final long serialVersionUID = 7526472295622776147L;
+  
   private String url;
   private String label;
   
