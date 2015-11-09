@@ -1,2 +1,2 @@
-myjsfFacelets
+JSF on Google App Engine
 =============
